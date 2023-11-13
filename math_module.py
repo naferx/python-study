@@ -1,4 +1,4 @@
-from math import ceil, floor, trunc
+from math import ceil, floor, trunc, e, exp
 
 x = 1.4
 y = 2.6

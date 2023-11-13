@@ -1,5 +1,5 @@
 # 1) importing the module
-import my_mod
+import mymodule_test
 
 # 2) import specific functions from module
 from math import floor
@@ -11,7 +11,7 @@ from datetime import *
 from string import digits as _ds
 
 # prefix the function or variable with the module name
-print('prefixing with the module name: ', my_mod.NAME)
+print('prefixing with the module name: ', mymodule_test.NAME)
 
 print('using specific function from module: ', floor(5.3))
 
