@@ -2,7 +2,7 @@
     Immutable sequences
 '''
 
-print('\none line strings')
+print('\none-line strings')
 name = 'david'
 print( len(name) ) # 5
 print( name[-1] ) # d
