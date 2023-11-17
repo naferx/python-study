@@ -59,3 +59,74 @@ food = 'pizza'
 print(food.count('z')) # 2
 print(food.count('i')) # 1
 print(food.count('t')) # 0
+
+# capitalize() - 
+print('\ncapitalize()')
+print('coMuni cat'.capitalize()) # Comuni cat
+print(' coMuni CAt'.capitalize()) #  comuni cat
+
+# center() - 
+print('\ncenter()')
+print('['+'abc cat'.center(2)+']') # Comuni cat
+print('line'.center(10, '*')) #  comuni cat
+
+
+# endsWith(sub) - 
+print('\nendsWith()')
+print('airplane'.endswith('ne')) # True
+print('line'.endswith('a')) # False
+
+
+# endsWith(sub) - 
+print('\nfind()')
+print('airplane'.find('ne')) # 6
+print('line'.find('a')) # -1
+
+# isalnum() - Check if the string contains only digits or alpha chars 
+print('\nisalnum()')
+print('airplan1e'.isalnum()) # True
+print('line$'.isalnum()) # False
+
+# isalpha() - Check if the string only contains letters 
+print('\nisalpha()')
+print('airplane'.isalpha()) # True
+print('line '.isalpha()) # False
+print('line1'.isalpha()) # False
+
+# isdigit() - Check if the string contains only digits
+print('\nisdigit()')
+print('123'.isdigit()) # True
+print('241 '.isdigit()) # False
+print('34a'.isdigit()) # False
+
+
+# islower() - Check if the string contains only lower-case letters only
+print('\nislower()')
+print('123'.islower()) # False
+print('abc'.islower()) # True
+print('abc '.islower()) # True
+print('AbG'.islower()) # False
+
+# isupper() - Check if the string contains only upper-case letters only
+print('\nisupper()')
+print('123'.isupper()) # False
+print('ABC'.isupper()) # True
+print('ABC '.isupper()) # True
+print('AbG'.isupper()) # False
+
+# isspace() - 
+print('\nisspace()')
+print(' \n'.isspace()) # True
+print('ABC '.isspace()) # False
+print(' '.isspace()) # True
+print('1 '.isspace()) # False
+
+# join(list) - 
+print('\njoin()')
+print(",".join(["omicron", "pi", "rho"])) # omicron,pi,rho
+
+
+# lower() - convert to lower case
+print('\nlower()')
+print('ABc'.lower()) # abc
+print('abC 1'.lower()) # abc 1
