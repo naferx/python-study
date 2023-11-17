@@ -71,10 +71,15 @@ print('['+'abc cat'.center(2)+']') # Comuni cat
 print('line'.center(10, '*')) #  comuni cat
 
 
-# endsWith(sub) - 
-print('\nendsWith()')
+# endswith(sub) - 
+print('\nendswith()')
 print('airplane'.endswith('ne')) # True
 print('line'.endswith('a')) # False
+
+# startswith() -  
+print('\nstartsWith()')
+print('airplane'.startswith('ai')) # True
+print('line'.startswith('lp')) # False
 
 
 # endsWith(sub) - 
@@ -130,3 +135,49 @@ print(",".join(["omicron", "pi", "rho"])) # omicron,pi,rho
 print('\nlower()')
 print('ABc'.lower()) # abc
 print('abC 1'.lower()) # abc 1
+
+# upper() - convert to upper case
+print('\nupper()')
+print('ABc'.upper()) # ABC
+print('abC 1'.upper()) # ABC 1
+
+
+# lstrip() - remove leading white space chars
+print('\nlstrip()')
+print(' ABc'.lstrip()) # ABc
+print('abC 1'.lstrip('a')) # bC 1
+
+
+# rstrip() - remove trailing white space chars
+print('\nrstrip()')
+print('ABc '.rstrip()) # ABc
+print('abC 1'.lstrip('1')) # bC 1
+print("cisco.com".rstrip(".com")) # cis
+
+
+# strip() - remove leading and trailing white space chars
+print('\nstrip()')
+print(' ABc '.strip()) # ABc
+print('abC '.strip()) # abC 
+ 
+
+# replace() - replace a subtring with other
+print('\nreplace()')
+print("www.netacad.com".replace("netacad.com", "pythoninstitute.org")) # www.pythoninstitute.org
+print("This is it!".replace("is", "are")) #thare are it
+print("Apple juice juice juice".replace("juice", "suco", 2)) # Apple suco suco juice
+print("Apple juice".replace("juice", "")) # Apple
+
+# rfind(sub, start, end) - find the position of a substring from right to left
+print('\nrfind()')
+print("tau tau tau".rfind("ta")) # 8
+print("tau tau tau".rfind("ta", 9)) # -1
+print("tau tau tau".rfind("ta", 3, 9)) # 4
+
+
+# split() - splits the string and builds a list
+print('\nsplit()')
+print("phi tau lol".split()) # ['phi', 'tau', 'lol']
+print("phi tau lol".split(' ')) # ['phi', 'tau', 'lol']
+print("phi, tau, lol".split(',')) # ['phi', ' tau', ' lol']
+
