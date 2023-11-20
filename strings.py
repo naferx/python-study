@@ -82,8 +82,8 @@ print('airplane'.startswith('ai')) # True
 print('line'.startswith('lp')) # False
 
 
-# endsWith(sub) - 
-print('\nfind()')
+# find(sub) - 
+print('\nfind(sub)')
 print('airplane'.find('ne')) # 6
 print('line'.find('a')) # -1
 
@@ -151,7 +151,7 @@ print('abC 1'.lstrip('a')) # bC 1
 # rstrip() - remove trailing white space chars
 print('\nrstrip()')
 print('ABc '.rstrip()) # ABc
-print('abC 1'.lstrip('1')) # bC 1
+print('abC 1'.lstrip('1')) # bC 1 ???
 print("cisco.com".rstrip(".com")) # cis
 
 
@@ -175,9 +175,11 @@ print("tau tau tau".rfind("ta", 9)) # -1
 print("tau tau tau".rfind("ta", 3, 9)) # 4
 
 
-# split() - splits the string and builds a list
-print('\nsplit()')
-print("phi tau lol".split()) # ['phi', 'tau', 'lol']
-print("phi tau lol".split(' ')) # ['phi', 'tau', 'lol']
-print("phi, tau, lol".split(',')) # ['phi', ' tau', ' lol']
+# swapcase() - swaps lower case characters to upper and viceversa 
+print('\nswapcase())')
+print("HeLlo WorlD!".swapcase()) # hElL0 wORLd!
 
+
+# title() - upper every initial letter in each word
+print('\ntitle()')
+print("dEsigniNg DAta intensive applications".title()) # Designing Data Intensive Applications
