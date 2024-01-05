@@ -27,7 +27,7 @@ Virtual environments are independent groups of Python libraries, one for each pr
 Python comes bundled with the venv module to create virtual environments.
 
 
-Create an environment 
+Create an environment on Linux
 
 `$ python3 -m venv .venv`
 
