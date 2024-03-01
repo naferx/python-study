@@ -9,6 +9,7 @@ print(2.3e3)
 print(4e1)
 #print(4e1.1) SyntaxError: invalid syntax
 
+
 print('\n=== Arithmetic operations ===')
 print(1.5 + 1.2)
 print(1.5 + 1)
