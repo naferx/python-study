@@ -68,3 +68,9 @@ for i in sorted(dictionary.keys()):
     k = dictionary[i]
     print(k[0])
 
+
+def fn():
+    ...
+
+
+print(fn())
