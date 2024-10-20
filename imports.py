@@ -18,3 +18,5 @@ print('using specific function from module: ', floor(5.3))
 print('importing everything: ', datetime.now()) # datetime is a class from the datetime module
 
 print('using alias: ', _ds)
+
+print(__name__)
