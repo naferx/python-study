@@ -25,7 +25,7 @@ print('\nReturning lambdas as functions')
 
 # using lambda inside another function
 
-def times(n):
+def times(n: int):
     return lambda x: x * n
 
 doubler = times(2)
